@@ -1,0 +1,70 @@
+.gridcont {
+  background-color: rgba(28, 28, 32, 0.566);
+  display: grid;
+  width: 90vw;
+  margin: auto;
+  padding: 28px;
+  gap: 20px;
+  border-radius: 10px;
+
+  grid-template-areas:
+    "h h h h"
+    "s1 s2 s2 s3"
+    "s1 s4 s5 s3"
+    "s1 s6 s6 s7"
+    "f f f f";
+}
+.h,
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.f {
+  background-color: red;
+  padding: 20px;
+  border: 3px solid rgb(105, 99, 99);
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  align-content: center;
+}
+
+.h {
+  grid-area: h;
+}
+
+.s1 {
+  grid-area: s1;
+}
+
+.s2 {
+  grid-area: s2;
+}
+
+.s3 {
+  grid-area: s3;
+}
+
+.s4 {
+  grid-area: s4;
+}
+
+.s5 {
+  grid-area: s5;
+}
+
+.s6 {
+  grid-area: s6;
+}
+
+.s7 {
+  grid-area: s7;
+}
+
+.f {
+  grid-area: f;
+}
